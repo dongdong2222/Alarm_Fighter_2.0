@@ -1,4 +1,5 @@
 # AlarmFighter
+<img src="./images/AlarmFighter_Title.png" width="600"/>
 
 **모바일 2D 리듬 캐주얼 게임 개발 프로젝트**
 
@@ -20,22 +21,28 @@ AlarmFighter는 바이러스에 감염된 앱을 정화한다는 세계관을 �
 ## 🛠 주요 기능 및 개발 내용
 
 ### 📌 Game Flow 설계
-- 메인 → 스테이지 선택 → 인게임으로 구성된 구
+- 메인 → 스테이지 선택 → 인게임으로 구성
 - 유저가 백신 프로그램을 실행하여 앱을 스캔하는 콘셉트로, 스테이지는 감염된 앱으로 표현
-- 하이퍼 캐주얼 구조에 맞춘 짧고 반복 가능한 진
+- 하이퍼 캐주얼 구조에 맞춘 짧고 반복 가능한 진행
 
 ### 📌 클래스 다이어그램
+<img src="./images/AlarmFighter_ClassDiagram.png" width="600"/>
+
 - 퍼사드 패턴(Facade Pattern)을 활용해 Manager 계층으로 모든 시스템 접근을 일원화
 - 박자 기반 리듬 처리 기능: BPM Manager, Timing Manager 설계 및 구현
 - Object Pooling 기법을 활용하여 메모리 최적화 및 CG 부하 방지
 
 ### 📌 몬스터 & 패턴 설계
+<img src="./images/AlarmFighter_Monster.png" width="400"/>
+
 - "바이러스에 감염된 앱"이라는 설정에 따라 앱 아이콘을 변형한 몬스터 디자인
 - 몬스터 FSM 설계 및 RPM에 맞는 공격 패턴 구현
 - 레이저/추수기/플래시 등 다양한 공격 방식 구현
 - 플레이어 반응 기반 로직 적용
 
 ### 📌 아이템 시스템
+<img src="./images/AlarmFighter_Item.png" width="400"/>
+
 - 타일 위 생성 아이템을 통한 회복, 방어, 공격 등 기능
 - 타일에서 획득 가능한 아이템들로 다양한 효과 구현:
     - 실드 아이템: 데미지 방어
