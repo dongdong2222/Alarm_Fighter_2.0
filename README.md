@@ -13,6 +13,8 @@
 - **관련 링크**: [Youtube](https://youtu.be/VHMg_UpHVT0)
 
 ## 🎮 게임 소개
+<img src="./images/AlarmFighter_InGmae.png" width="200"/>
+
 
 AlarmFighter는 바이러스에 감염된 앱을 정화한다는 세계관을 기반으로 한 하이퍼 캐주얼 2D 리듬 게임입니다. 기존 리듬게임의 방식에서 벗어나 **타일을 밟아 회피/공격을 수행하는 새로운 게임플레이**를 구현했습니다.
 
@@ -21,6 +23,8 @@ AlarmFighter는 바이러스에 감염된 앱을 정화한다는 세계관을 �
 ## 🛠 주요 기능 및 개발 내용
 
 ### 📌 Game Flow 설계
+<img src="./images/AlarmFighter_GameFlow.png" width="600"/>
+
 - 메인 → 스테이지 선택 → 인게임으로 구성
 - 유저가 백신 프로그램을 실행하여 앱을 스캔하는 콘셉트로, 스테이지는 감염된 앱으로 표현
 - 하이퍼 캐주얼 구조에 맞춘 짧고 반복 가능한 진행
@@ -60,6 +64,8 @@ AlarmFighter는 바이러스에 감염된 앱을 정화한다는 세계관을 �
 - 해결: 정기/비정기 기획 회의를 통해 의사결정 명확화
 
 ### 🎨 디자이너와의 협업 이슈
+<img src="./images/AlarmFighter_Issue.png" width="400"/>
+
 - 실사 스타일 vs 캐주얼 스타일 충돌
 - 해결: 최종 콘셉트 확정 전까지 기획 및 아트 간 조율 반복
 
